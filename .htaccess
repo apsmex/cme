@@ -1,0 +1,32 @@
+<ifmodule mod_expires.c>
+Options -Indexes
+
+ExpiresActive On
+ExpiresDefault A31536000
+<FilesMatch ".(gif|jpg|jpeg|png|swf)$">
+
+# 2 weeks
+ExpiresDefault A31536000
+Header append Cache-Control "public"
+</FilesMatch>
+<FilesMatch ".(xml|txt|html)$">
+
+# 2 hours
+ExpiresDefault A31536000
+Header append Cache-Control "public"
+</FilesMatch>
+<FilesMatch ".(js|css)$">
+
+# 3 days
+ExpiresDefault A31536000
+Header append Cache-Control "public"
+</FilesMatch>
+</ifmodule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+ErrorDocument 404 https://came.org.mx/404.html
+</IfModule>
+
+Redirect 301 https://came.org.mx/terminos-y-condiciones-cuenta-deposito-digital.html https://came.org.mx/promociones.html
+Redirect 301 https://came.org.mx/terminos-y-condiciones-cuenta-depósito-digital.html https://came.org.mx/promociones.html

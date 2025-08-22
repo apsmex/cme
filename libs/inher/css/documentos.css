@@ -1,0 +1,186 @@
+.avisodpDoc{
+    padding: 0px;
+}
+.avisodpDoc > table{
+    display: block;
+    margin: 0 auto;
+	width: 100%;
+}
+
+.avisodpDoc table tr th{
+    border:solid 1px #000;
+}
+
+.avisodpDoc table tr td{
+    border:solid 1px #000;
+	padding: 10px;
+}
+
+.avisodpDoc table tr td > p{
+    color: #000;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.avisodpDoc table tr td > small{
+    color: #000;
+	text-align: center;
+	display: block;
+}
+
+.avisodpDoc table tr td > h3{
+	text-align: center;
+	font-size: 20px;
+    color: #000;
+	margin-bottom: 0px;
+}
+
+.avisodpDoc > p > a{
+    color: #be1622;
+    font-weight: 600;
+}
+
+.tab-Smarg{
+    padding: 10px !important;
+}
+
+#gatNominal, #tasaIntereAfija, #gatReal{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.firmas p > img{
+	position: inherit;
+}
+
+.firmas p > span > img{
+	width: 90px;
+	position: absolute;
+	top: -70%;
+	mix-blend-mode: multiply;
+	left: 30%;
+
+
+}
+.firmas p{
+	position: relative;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 924px) {
+	.avisodpDoc table tr td > h3 {
+    font-size: 12px;
+	}
+	.avisodpDoc table tr td > p {
+		font-size: 12px;
+	}
+	.firmas p > span > img {
+		width: 90px;
+		position: inherit;
+		top: -70%;
+		mix-blend-mode: multiply;
+		left: 30%;
+	}
+}
+
+@media (max-width: 703px) {
+	.avisodpDoc table tr > th > p {
+		font-size: 10px !important;
+	}
+
+	.form-check-label{
+		font-size: 10px;
+	}
+
+	.avisodpDoc table tr td > h3 {
+    font-size: 10px;
+	}
+	.avisodpDoc table tr td > p {
+		font-size: 10px;
+	}
+
+	.firmas p > span > img {
+		width: 90px;
+		position: inherit;
+		top: -70%;
+		mix-blend-mode: multiply;
+		left: 30%;
+	}
+}
+
+@media (max-width: 627px) {
+	.avisodpDoc table tr td > small {
+		font-size: 8px;
+		line-height: 8px;
+	}
+	.avisodpDoc table tr > th > p {
+		font-size: 8px !important;
+	}
+
+	.form-check-label{
+		font-size: 8px;
+	}
+
+	.avisodpDoc table tr td > h3 {
+    font-size: 8px;
+	}
+	.avisodpDoc table tr td > p {
+		font-size: 8px;
+	}
+	.firmas {
+    display: inline;
+    margin-top: 100px;
+	}
+	.firmas p {
+    text-align: center;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+	}
+}
+
+@media (max-width: 540px) {
+	#gatNominal, #tasaIntereAfija, #gatReal {
+    font-size: 16px;
+    font-weight: 700;
+	}
+
+	.avisodpDoc table tr td > small {
+		font-size: 6px;
+		line-height: 6px;
+	}
+	.avisodpDoc table tr > th > p {
+		font-size: 6px !important;
+	}
+
+	.form-check-label{
+		font-size: 6px;
+	}
+
+	.avisodpDoc table tr td > h3 {
+    font-size: 6px;
+	}
+	.avisodpDoc table tr td > p {
+		font-size: 6px;
+	}
+}
+
+@media (max-width: 450px) {
+	table{
+		overflow: scroll;
+	}
+}

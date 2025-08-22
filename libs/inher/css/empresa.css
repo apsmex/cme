@@ -1,0 +1,101 @@
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+.tableEmpresas tr td > p{
+    text-align: center;
+    color: #1b1b1b;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+
+.borderTble td{
+    border: solid 1px #1b1b1b;
+}
+
+.borderTble td small{
+    display: block;
+    text-align: center;
+}
+
+.borderTble td span{
+    color: #1b1b1b;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    display: block;
+}
+
+.borderTble td h3{
+    color: #1b1b1b;
+    text-align: center;
+    display: block;
+}
+
+.borderTble td .form-check{
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.optionsChek td > .form-check{
+    text-align: center;
+}
+
+.optionsChek td{
+    width: 33.33%;
+}
+
+.titleCheck > td > p{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.textTableFinel td > p{
+ text-align: left !important;
+}
+
+.textTableFinel td > h3{
+    text-align: left !important;
+    font-size: 18px !important;
+}
+
+.firmasLegalesTDS{
+    display: flex;
+}
+
+.firmasLegalesTDS .firmas{
+    width: 50%;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.firmas p {
+    text-align: center;
+    width: 100% !important;
+    margin: 0px 10px;
+}
+
+.text-left p{
+    text-align: left !important;
+}
+
+.borderTble td  ul{
+    list-style: circle !important;
+    padding-left: 20px;
+    color: #1b1b1b;
+}
+
+.borderTble td  ul li{
+    list-style: circle !important;
+    margin: 10px 0px;
+}
+
+.aviso ul li{
+    list-style: circle !important;
+    padding-left: 20px;
+}

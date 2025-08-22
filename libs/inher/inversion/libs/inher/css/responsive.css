@@ -1,0 +1,102 @@
+@media (max-width: 1199px){
+	.bann_cabeza_txt p {
+    color: #fff;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 1024px){
+	.card-body {
+    padding: 35px !important;
+	}
+}
+
+@media (max-width: 991px){
+	.bann_cabeza_txt p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+	}
+	.bann_title h1 {
+    color: #fff;
+    text-align: center;
+	}
+	.bann_title hr {
+    width: 30%;
+    border: solid 5px #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+	}
+	.bann_title p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	}
+	.btn_principal a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+	}
+	.form-top{
+		margin-top: 30px;
+	}
+	.ventajas-content {
+    margin: 10px;
+    height: 90%;
+	}
+    .ventajas-content-dos{
+    margin: 10px;
+    height: 90% !important;
+    }
+}
+
+@media (max-width: 767px){
+    .banner_principal{
+    padding: 50px 0 50px 0;
+    margin: 0px 0px !important;
+    }
+    .bann_title {
+    margin-top: 0px;
+    }
+    .bann_title h3{
+        text-align: center;
+    }
+    .cta {
+    padding: 50px 0px;
+    }
+}
+
+@media (max-width: 500px){
+    .selecte-monto {
+    font-size: 16px;
+    }
+    .cotizador__content input {
+    font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
